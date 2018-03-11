@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*ul{*/
+    /*display: inline-block;*/
+/*}*/
+.logo {
+    display: inline-block;
+    padding-left: 34px;
+}
+a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav li:hover a {
+    color: #f2fff7;
+}
+ li:hover {
+    background: #38b6e7;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 357px;
+    /*font-size:0;*/
+}
+.menu {
+    font-size:0;
+}
+li {
+    display: inline-block;
+    padding:15px 15px;
+    background: #c1ecfb;
+}
+header {
+    vertical-align: top;
+    /*padding: 0 30px 0;*/
+    background: rgba(55, 195, 242, 0.31);
+}
+main{
+    padding-left: 48px;
+    padding-top: 41px;
+    background: rgba(55, 195, 242, 0.65);
+}
+h3 {
+    margin-bottom: 30px;
+    color: #f2fff7;
+}
+.defin{
+    margin-bottom: 30px;
+    color: #f2fff7;
+}
+footer {
+    padding: 10px;
+
+    background: rgba(55, 195, 242, 0.65);
+}
+.copyright {
+    display: inline-block;
+    background-color: #719694;
+    padding: 5px;
+    color: #f2fff7;
+}
+img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width:282px;
+    display: inline-block;
+}
+.social-net {
+    text-align: center;
+    padding-right: 34px;
+}
+.social-net li{
+    padding: 3px 5px;
+    margin: 4px;
+    /*padding-right: 32px;*/
+}
+.social-net a{
+    padding: 3px;
+}

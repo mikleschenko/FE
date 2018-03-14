@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+ul {
+    list-style: none;
+}
+.nav {
+    width: 750px;
+    margin: auto;
+    background-color: #333333;
+    color: #ffffff;
+    border-bottom: 3px solid #2998ff;
+}
+
+.clearfix:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+.menu-item {
+    float: left;
+    position: relative;
+    padding: 25px 39px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.menu-blue {
+    background-color: #2998ff;
+}
+.submenu1 {
+    display: none; /*показать\скрыть подменю*/
+    position: absolute;
+    top: 104% ;
+    left:0;
+    background-color: #2998ff;
+    /*border: 1px solid #237fd5;*/
+}
+
+.submenu-item1 { /*размещение элементов второго меню*/
+    text-align: left;
+    width: 300px;
+    padding: 25px 40px;
+    font-size: 15px;
+    border: 1px solid #237fd5;
+}
+.submenu-item1:after {
+    content: '+';
+    padding-left: 100px;
+}
+
+.menu-item:hover {
+    background-color: #2998ff;}
+.submenu-item1:hover {
+    background-color: #2998ff;}
+.menu-item:hover > .submenu1 { /*li родитель указывает на подменю UL*/
+    display: block; /*при наведении выпадает подменю*/}
+
+
+/*отработка второго подменю*/
+.submenu-item1 {
+    position: relative;
+}
+.submenu2 {
+    display: none; /*показать\скрыть подменю*/
+    position: absolute;
+    top: -2px ;
+    left: 299px;
+    background-color: #2998ff;
+    /*border: 1px solid #237fd5;*/
+}
+.submenu-item1:hover > .submenu2 {
+    /*li родитель указывает на подменю UL*/
+    display: block; /*при наведении выпадает подменю*/
+}
+.submenu-item2 {
+    text-align: left;
+    width: 300px;
+    font-size: 15px;
+    padding: 25px ;
+    border: 1px solid #237fd5;
+}
+
+.submenu-item2:hover {
+    background-color: #2998ff;
+}
+/*text-align: left;*/
+/*width: 300px;*/
+/*padding: 25px 40px;*/
+/*font-size: 15px;*/
+/*border: 1px solid #237fd5;*/
+
+/*text-align: left;*/
+/*font-size: 15px;*/
+/*padding: 18px 100px;*/
+/*border: 1px solid #237fd5;*/
+

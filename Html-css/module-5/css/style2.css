@@ -1,0 +1,327 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper-header {
+    background-color:  #ffffff;
+}
+.container-header {
+    max-width: 1111px;
+    margin: auto;
+    padding-top: 43px;
+}
+.header{
+    margin-bottom: 38px;
+}
+.clearfix:after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.logo{
+    float: left;
+    color: #555252;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    /*text-align: left;   не работает*/
+    text-decoration: none;
+}
+.logo-letter{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1abc9c;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    padding-top: 13px;
+}
+
+.menu {
+    float: right;
+}
+
+.nav-item{
+    float: left;
+    margin-right: 37px;
+    /*margin-top: 15px;*/
+    color: #0f0101;
+}
+
+.nav-link:hover {
+    color: #1abc9c;
+}
+
+.nav-item:nth-of-type(1n+6) { /*убиpаем маржин у крайнего справа элемента*/
+    margin-right: 0;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+}
+/*вторая часть*/
+.wrapper-info {
+    background-image: url("../img/slide4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 602px;
+}
+.container-info {
+    max-width: 1111px;
+    margin:auto;
+    padding-top: 210px;
+    position: relative; /*для фоток left-arrow и правой*/
+}
+
+.title-info{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color:  #ffffff;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+}
+
+.text-info{
+    padding-left: 180px;
+    font-family: 'Roboto', sans-serif;
+    color:  #ffffff;
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+.left-arrow {
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 100px;
+    top: 230px;
+}
+
+.right-arrow {
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 100px;
+    top: 230px;
+    right: 0;
+}
+
+.left-arrow:hover, .right-arrow:hover {
+    opacity:0.5;
+}
+
+/*третья часть*/
+.wrapper-collection {
+    background-color:  #e9f0fd;
+    margin-bottom: 100px;
+}
+
+.container-collection {
+    max-width: 1111px;
+    margin:auto;
+    padding-top: 120px;
+}
+
+.head-title{    /*new-collection*/
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #515151;
+    margin-bottom: 100px;
+    font-weight: bold;
+}
+
+.head-title::after { /*горизонтальная палочка под new-collection */
+    content: "";
+    display: block;
+    clear: both;
+    margin:auto;
+    height: 7px;
+    background-color:  #1abc9c;
+    width: 164px;
+    margin-top: 30px;
+}
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: " ";
+}
+.goods{
+    /*position: relative;*/
+}
+.art-goods {
+    /*width: 255px;*/
+    float: left;
+    margin-right: 30px;
+    position: relative;
+}
+.art-goods:last-child {
+    margin-right: 0;
+}
+
+.photo-goods {
+    display: block;
+    /*position: absolute;*/
+    width: 255px;
+    height: 322px;
+}
+
+.name-cost{
+    /*position: absolute;*/
+    width: 255px;
+    /*top: 282px;*/
+    font-size: 0;
+}
+
+.name {
+    display: inline-block;
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 8px 0 8px 14px;
+
+}
+.cost {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 55px;
+    color: #ffffff;
+    background-color: #757575;
+    padding: 8px 0 8px 12px;
+}
+/*блок тdo */
+.tdo-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    height: 320px;
+    width: 255px;
+    border: 13px solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.heart {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/heart-7.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto ;
+    top: 80px;
+    left: 90px;
+}
+.direct {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    background-image: url("../img/dir6.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto ;
+    top: 80px;
+    left: 32px;
+}
+.clock {
+    display: block;
+    position: absolute;
+    background-image: url("../img/bez5.png");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 25px;
+    top: 93px;
+    right: 32px;
+}
+
+.cart {
+    display: block;
+    position: absolute;
+    background-image: url("../img/cart copy 3.png");
+    background-repeat: no-repeat;
+    width: 166px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    top: 138px;
+    left: 31px;
+}
+.frame {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    top: 80px;
+}
+
+.art-goods:hover .tdo-menu {
+    display: block;
+}
+.art-goods2:hover .tdo-menu2 {
+    display: block;
+}
+.art-goods:hover .name {
+    background-color: #1abc9c;
+}
+.art-goods2:hover .name {
+    background-color: #1abc9c;
+}
+.art-goods:hover .cost {
+    background-color: #7fc9c6;
+}
+.art-goods2:hover .cost {
+    background-color: #7fc9c6;
+}
+.heart:hover, .clock:hover, .direct:hover {
+    background-color: #1abc9c;
+    border: 1px solid #1abc9c;
+}
+.cart:hover {
+    opacity: 0.4;
+}
+
+.wrapper-footer{
+    background-color: #323232;
+}
+.footer{
+    width: 1111px;
+    margin:auto;
+}
+.text-footer{
+    color: #FFFFFF;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 40px;
+    font-size: 17px;
+    text-align: center;
+    margin:auto;
+    width: 1111px;
+    font-family:'Open Sans', sans-serif;
+}
+.span-footer{
+    color: #46bfa9;
+}

@@ -5,15 +5,14 @@
 }
 .wrapper-header {
     background-color:  #ffffff;
+    margin-bottom: 38px;
 }
 .container-header {
     max-width: 1111px;
     margin: auto;
     padding-top: 43px;
 }
-.header{
-    margin-bottom: 38px;
-}
+
 .clearfix:after{
     display: block;
     content: '';
@@ -74,12 +73,13 @@ ul {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 602px;
+
 }
+
 .container-info {
     max-width: 1111px;
     margin:auto;
-    padding-top: 210px;
+    padding:210px 0 280px;
     position: relative; /*для фоток left-arrow и правой*/
 }
 
@@ -94,7 +94,7 @@ ul {
 }
 
 .text-info{
-    padding-left: 180px;
+    margin-left: 180px;
     font-family: 'Roboto', sans-serif;
     color:  #ffffff;
     font-size: 27px;

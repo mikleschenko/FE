@@ -125,7 +125,7 @@ ul {
 /*третья часть*/
 .wrapper-collection {
     background-color:  #e9f0fd;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 .container-collection {
@@ -148,11 +148,11 @@ ul {
     content: "";
     display: block;
     clear: both;
-    margin:auto;
+    margin:30px auto;
     height: 7px;
     background-color:  #1abc9c;
     width: 164px;
-    margin-top: 30px;
+
 }
 
 .clearfix:after {
@@ -314,11 +314,11 @@ ul {
 .text-footer{
     color: #FFFFFF;
     text-transform: capitalize;
-    display: inline-block;
+    /*display: inline-block;*/
     padding: 40px;
     font-size: 17px;
     text-align: center;
-    margin:auto;
+    /*margin:auto;*/
     width: 1111px;
     font-family:'Open Sans', sans-serif;
 }

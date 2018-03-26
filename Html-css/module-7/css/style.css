@@ -13,10 +13,10 @@
 }
 .header {
     width: 940px;
-    margin:auto;
-    margin-bottom: 130px ;
+    margin:0 auto 130px;
     display: flex;
     justify-content: space-between;
+    align-items:baseline;
 }
 .nav-link, .logotype {
     text-decoration: none;
@@ -26,7 +26,6 @@
     display: flex;
     justify-content: space-between;
     width: 485px;
-    padding-top: 10px;
 }
 
 .nav-link{
@@ -52,7 +51,7 @@
     margin:auto;
 }
 
-.services-title{
+.main-header{
     text-align: center;
     margin-bottom: 80px;
 }
@@ -71,7 +70,7 @@
     font-style: italic;
 }
 
-.section-article{
+.main-body{
     display: flex;
     justify-content:space-between;
 }
